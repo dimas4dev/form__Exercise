@@ -1,0 +1,20 @@
+.Input {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+
+ &__Label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 4px;
+ }
+
+ &__Class {
+  display: flex;
+
+  &--input {
+   height: 33px;
+   width: 250px;
+  }
+ }
+}
